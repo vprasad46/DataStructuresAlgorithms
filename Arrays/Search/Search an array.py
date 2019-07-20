@@ -1,4 +1,3 @@
-
 # Search Algorithm for sorted arrays: Binary Search
 
 def search(arr, start, end, searchElement):
