@@ -3,7 +3,7 @@
 
 def search(arr, start, end, searchElement):
     middle = int((start + end) / 2)
-    if end > 0 and middle < len(arr):
+    if end > 0 and middle < len(arr) and start != end:
         if arr[middle] == searchElement:
             return middle
         elif arr[middle] < searchElement:
